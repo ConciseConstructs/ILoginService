@@ -1,4 +1,5 @@
 export interface IReadAuthIdRequest {
+  saasName:string
   authId:string
 }
 
