@@ -1,7 +1,9 @@
 export interface ICreateRequest {
+  saasName:string
   authId:string
   acctId:string
-  userId:string
+  userId?:string
+  name?:string
 }
 
 export interface ICreateResponse {

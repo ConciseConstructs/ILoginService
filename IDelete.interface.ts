@@ -1,5 +1,5 @@
 export interface IDeleteRequest {
-  cognitoId:string
+  authId:string
 }
 
 export interface IDeleteResponse {
